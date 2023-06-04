@@ -7,7 +7,13 @@
   /* border: 1px solid red; */
   
   /* Default Font  */
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --primary: #800000;
+  --secondary: #DAA520;
 }
 
 .App {
@@ -25,4 +31,42 @@ place-items: center;
 height: 100vh;
 font-size: 32px;
 font-weight: bold;
+}
+
+body {
+  background: linear-gradient(180deg, #800000, #b30000);
+  margin: 0;
+  color: white;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.row {
+  display: flex;
+}
+
+.container {
+  margin: 0 auto;
 }

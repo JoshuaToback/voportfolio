@@ -1,11 +1,20 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-scroll';
 
-function Hero() {
+const Hero = () => {
   return (
-    <div>
-      <h2>Hero</h2>
+    <div className='hero'>
+      <div className='hero-image'></div>
+      <div className='hero-content'>
+        <h1>Joshua Toback</h1>
+        <p>Voice Acting for Animation and Video Games</p>
+        <center>
+          <Link smooth spy to="demos">Demo</Link>
+          <Link smooth spy to="contact">Contact</Link>
+        </center>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

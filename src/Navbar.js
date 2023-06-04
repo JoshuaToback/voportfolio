@@ -2,11 +2,16 @@ import React from "react";
 import { Link } from "react-scroll";
 import { SocialIcon } from "react-social-icons";
 
+import jtLogo from "./images/jtogotrans.png"
+
 export default function Navbar() {
+    function toggleMenu() {
+
+    }
   return (
-    <header className="nav">
-      <nav className="nav__container__actions">
-        <ul>
+    <header className="row container">
+      <nav className="navigation row">
+        <ul className="row">
           <li>
             <Link activeClass="active" smooth spy to="home">
               HOME
@@ -35,11 +40,19 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
-
+      <a href="#" className="logo row">
+        <img src={jtLogo} alt="JTVA Logo" />
+      </a>
       <ul className="navIcons">
-        <SocialIcon url="https://twitter.com/jtvoiceactor" style={{ height: 50, width: 50 }}  bgColor="#800000" />
-        <SocialIcon url="https://www.twitch.tv/jtva" style={{ height: 50, width: 50 }} bgColor="#800000" />
-        <SocialIcon url="https://www.youtube.com/channel/UC_WdfmTvGS5gJuamdXqSnhg" style={{ height: 50, width: 50 }} bgColor="#800000" />
+        <li>
+            <SocialIcon url="https://twitter.com/jtvoiceactor" style={{ height: 50, width: 50 }}  bgColor="#ffffff" />
+        </li>
+        <li>
+            <SocialIcon url="https://www.twitch.tv/jtva" style={{ height: 50, width: 50 }} bgColor="#ffffff" />
+        </li>
+        <li>
+            <SocialIcon url="https://www.youtube.com/channel/UC_WdfmTvGS5gJuamdXqSnhg" style={{ height: 50, width: 50 }} bgColor="#ffffff" />
+        </li>
       </ul>
     </header>
   );
