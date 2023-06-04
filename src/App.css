@@ -20,21 +20,14 @@ header {
 
 .logo {
   align-items: center;
-}
-
-.logo img {
   max-width: 250px;
-  margin-right: 225px;
+  padding: 20px;
 }
 
-.logo h1{ 
-  font-weight: 700;
-  font-size: 35px
-}
 
 nav ul {
   gap: 1.5em; 
-  align-items: center;
+  align-items: center;c
 }
 
 nav a {
@@ -141,3 +134,35 @@ nav li:nth-of-type(6) a:hover, .hero a:hover {
   background: linear-gradient(45deg, white, #ffffff);
   transition: all 0.3s ease-in-out;
 }
+
+
+
+/* Demos */
+
+#demos {
+  background-color: var(--secondary);
+}
+
+.demo {
+  text-align: center;
+  width: 50vw;
+  height: 50vh;
+}
+
+.demo-content {
+  background-color: var(--primary);
+  border-radius: 50px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+}
+
+.demo-content h2 {
+  text-shadow: 2px 2px black;
+}
+
+.demo iframe {
+  padding: 20px;
+}
+
+
+/* Media */
