@@ -28,11 +28,11 @@ export default function Navbar() {
             </Link>
           </li>
 
-          <li>
+          {/* <li>
             <Link activeClass="active" smooth spy to="clients">
               CLIENTS
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link activeClass="active" smooth spy to="contact">
               CONTACT

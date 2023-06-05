@@ -7,7 +7,7 @@ const Hero = () => {
       <div className='hero-image'></div>
       <div className='hero-content'>
         <h1>Joshua Toback</h1>
-        <p>Voice Acting for Animation and Video Games</p>
+        <p>Voice Acting/Directing for Animation and Video Games</p>
         <center>
           <Link smooth spy to="demos">Demo</Link>
           <Link smooth spy to="contact">Contact</Link>

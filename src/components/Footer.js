@@ -2,8 +2,8 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div>
-      <h2>Footer</h2>
+    <div className="footer">
+      <h2>Developed by Joshua Toback</h2>
     </div>
   )
 }

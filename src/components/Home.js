@@ -26,9 +26,9 @@ function Home() {
         <section id="about">
           <About />
         </section>
-        <section id="clients">
+        {/* <section id="clients">
           <Clients />
-        </section>
+        </section> */}
         <section id="contact">
           <Contact />
         </section>
